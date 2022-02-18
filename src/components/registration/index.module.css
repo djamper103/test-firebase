@@ -1,0 +1,31 @@
+.container{
+    display: flex;
+    justify-content: center;
+}
+
+.containerMain{
+    margin: 10vw 0;
+    border: 1px solid #dadce0;
+    padding: 40px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.containerButton{
+    padding: 10px 20px;
+    border-radius: 5px;
+    width: 8vw;
+    background-color: #1a73e8;
+    margin: 1vh auto;
+}
+
+.containerButton a{
+    font-size: 16px;
+    color: white;
+}
+
+.placeholder{
+    font-size: 27px;
+    margin-bottom: 3vh;
+    font-weight: bold;
+}

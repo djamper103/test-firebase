@@ -1,0 +1,63 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.container label{
+    font-size: 20px;
+    margin-bottom: 1.5vh;
+}
+
+.container input{
+    font-size: 16px;
+    padding: 10px 20px;
+    border-radius: 5px;
+    width: 15vw;
+    border: 1px solid #dadce0;
+ }
+
+.container input[type="submit"]{
+    width: 10vw;
+    color: white;
+    background-color: #1a73e8;
+    cursor: pointer;
+}
+
+.container input:active{
+    border: 1px solid #0f4fcf;
+}
+
+@media screen and (max-width: 1400px) {
+    .container input{
+        width: 22vw;
+    }    
+}
+
+@media screen and (max-width: 1000px) {
+    .container input{
+        width: 25vw;
+     }
+}
+
+@media screen and (max-width: 800px) {
+    .container input{
+        width: 30vw;
+    }
+
+    .container input[type="submit"]{
+        width: 25vw;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .container input{
+        width: 45vw;
+    }
+
+    .container input[type="submit"]{
+        width: 30vw;
+    }
+}
+
